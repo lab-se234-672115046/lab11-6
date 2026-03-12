@@ -1,5 +1,5 @@
 services:
   my-web-app:
-    build: .
+    image: stewiezz/lab11-6:latest  # <--- Change this line
     ports:
       - "8080:80"
